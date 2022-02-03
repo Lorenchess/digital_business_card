@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import '~bootstrap/scss/bootstrap';
+@import './Components/shares/vaiables.scss';
+
+
+
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: 'Lora', serif, 'Lobster', cursive !important;
+  line-height: 1.5;
+  color: $color-text !important;
+  background-color: #f3bb80 !important;
+  //background-color: #243C74 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
