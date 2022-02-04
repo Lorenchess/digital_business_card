@@ -16,8 +16,18 @@ body {
   font-family: 'Lora', serif, 'Lobster', cursive !important;
   line-height: 1.5;
   color: $color-text !important;
-  background-color: #f3bb80 !important;
+  background-color: $bg-color !important;
   //background-color: #243C74 !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: $bg-color;
+  background-image: 
+        // radial-gradient(at 47% 33%, #faf0d9 0, transparent 59%), 
+        // radial-gradient(at 82% 65%, #f8e2e3 0, transparent 55%);
+        radial-gradient(at 47% 33%, #f7a677 0, transparent 59%), 
+        radial-gradient(at 82% 65%, #f8e2e3 0, transparent 55%);
+        box-shadow: inset 0 0 0 1000px rgba(247, 242, 242, 0.2);
+  
+  padding: 4.5rem;
+  margin: 0;
 }

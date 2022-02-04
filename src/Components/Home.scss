@@ -1,7 +1,46 @@
 @import '../Components/shares/vaiables.scss';
 
+
+
 .author {
-   text-align: center;
-   justify-content: center;
-   //border-radius: 50%;
+   text-align: center !important;
+   justify-content: center !important;
+   align-items: center !important;
+   margin: 8rem 0 0 8rem;
+   //display: flex;
+   //flex: start !important;
+}
+
+// .container-home {
+//    background-image: url("./assets/bg-img.jpg");
+//    opacity: .3;
+// }
+.header-info h1 {
+   margin: 12rem 0 3rem 0;
+   font-size: 5rem;
+   font-weight: 600;
+
+   &.name {
+      margin-top: 3rem;
+   }
+
+}
+
+.header-info h4 {
+   font-size: 2rem;
+   margin-bottom: 1rem;
+}
+
+.results {
+   font-size: 1.5rem;
+   margin-right: 3rem;
+}
+
+.phone {
+   font-size: 1.8rem;
+   margin-top: 3rem;
+}
+.email {
+   font-size: 1.8rem;
+   margin-top: 3rem;
 }
